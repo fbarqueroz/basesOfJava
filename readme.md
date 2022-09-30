@@ -5,4 +5,8 @@
 </div>
 
 ## **Topics**
-
+- How to print something in the console
+- Types of primitive data
+- Non primitive data and chains
+- Const value
+- in and out of data (console)

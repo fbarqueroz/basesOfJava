@@ -16,7 +16,7 @@ public class BasicsOfJava {
         // ---------- How to print something in the console ----------
         //
         
-       
+        
         System.out.println("Hello World!"); // ln = line break at the end of the code
         // sout + tab = shotcut of println command line
         
@@ -78,7 +78,7 @@ public class BasicsOfJava {
         System.out.println("Chain of characters: " + word);
         
         //
-        // ---------- Const ----------
+        // ---------- Const value ----------
         //
         
         final int num = 10; // to define a const, most use final
