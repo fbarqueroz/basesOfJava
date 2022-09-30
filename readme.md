@@ -7,6 +7,6 @@
 ## **Topics**
 - How to print something in the console
 - Types of primitive data
-- Non primitive data and chains
+- Non primitive data and chaining method
 - Const value
 - in and out of data (console)
