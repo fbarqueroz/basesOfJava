@@ -1,4 +1,4 @@
-# Java for Beginners 🍵 (from cero)
+# Java for Beginners 🍵
 
 <img src="https://media.giphy.com/media/LG1ZZP1Go0D8j7YsWy/giphy.gif"/>
 
@@ -7,4 +7,5 @@
 - Types of primitive data
 - Non primitive data and chaining method
 - Const value
-- in and out of data (console)
+- in and out of data **(console)**
+- in and out of data with **JOptionPane**

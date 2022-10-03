@@ -6,6 +6,7 @@
 package com.mycompany.basicsofjava;
 
 // Imports
+import javax.swing.*;
 import java.util.Scanner;
 
 public class BasicsOfJava {
@@ -15,18 +16,23 @@ public class BasicsOfJava {
         //
         // ---------- How to print something in the console ----------
         //
-        
-        
+
+        /* ------------------------------------------------------------------------------
+
         System.out.println("Hello World!"); // ln = line break at the end of the code
         // sout + tab = shotcut of println command line
-        
+
+         ------------------------------------------------------------------------------ */
+
         
         //
         // ---------- Types of primitive data ----------
         //
+
+        /* ------------------------------------------------------------------------------
         
         // Variable = is a reserved memory location to store values
-        // Also, the variable can chage the value along the code
+        // Also, the variable can change the value along the code
         
         // Integer Numbers
         
@@ -61,18 +67,22 @@ public class BasicsOfJava {
         
         boolean validation = true;
         System.out.println("Boolean Data: " + validation);
+
+        ------------------------------------------------------------------------------ */
         
         
         //
-        // ---------- Non primitive data and chains ----------
+        // ---------- Non primitive data and chaining method ----------
         //
+
+        /* ------------------------------------------------------------------------------
         
         // Non primitive data
         
         Integer nonNum = null;
         System.out.println("Null Data: " + nonNum);
         
-        // Chains
+        // Chaining method
         
         String word = "Hi, what's up"; // Most use double cuote
         System.out.println("Chain of characters: " + word);
@@ -83,15 +93,20 @@ public class BasicsOfJava {
         
         final int num = 10; // to define a const, most use final
         System.out.println("Const value: " + num);
+
+        ------------------------------------------------------------------------------ */
         
         //
         // ---------- in and out of data (console) ----------
         //
 
+        /* ------------------------------------------------------------------------------
+
         Scanner in = new Scanner(System.in);
         int intNumber;
         float floatNumber;
         String chain;
+        char letter;
         
         System.out.println("Type an int number: ");
         intNumber = in.nextInt(); // input data
@@ -102,7 +117,48 @@ public class BasicsOfJava {
         System.out.println("The decimal number is: " + floatNumber);
 
         System.out.println("Type an string data: ");
-        chain = in.next(); // only save one word
+        // chain = in.next(); ==> only save one string value == example: today (without spaces)
+        chain = in.nextLine(); // save a chain of string values == example: today is friday
         System.out.println("The string data is: " + chain);
+
+        System.out.println("Type an string data: ");
+        letter = in.next().charAt(0); // char support just one character == example: "l"
+        // charAt(0) ==> Only read the fist letter or number of the value
+        System.out.println("The char data is: " + chain);
+
+        ------------------------------------------------------------------------------ */
+
+        //
+        // ---------- In and out of data with JOptionPane ----------
+        //
+
+        String cadena;
+        int entero;
+        char letra;
+        double decimal;
+
+        // ** JOptionPane genera una ventana emergente solicitando los datos **
+
+        cadena = JOptionPane.showInputDialog("Digite una cadena: ");
+        // System.out.println(cadena);
+
+        entero = Integer.ParseInt(JOptionPane.showInputDialog("Digite un entero: "));
+        // ------ Se intergra un integer para transformar de string a int ------
+
+        letra = JOptionPane.showInputDialog("Digite un caracter: ").charAt(0);
+        // Se agrega un '.charAt(x)' para canvertir de string a char
+
+        decimal = Double.parseDouble(JOptionPane.showInputDialog("Digite un decimal: "));
+        // Se agrega dentro de 'parseDouble()' para convertir de string a double
+
+        // Muestra una ventana con el resultado
+        JOptionPane.showMessageDialog(null, "La cadena es: " + cadena);
+        JOptionPane.showMessageDialog(null, "El número entero es: " + entero);
+        JOptionPane.showMessageDialog(null, "La letra es: " + letra);
+        JOptionPane.showMessageDialog(null, "El número decimal es: " + decimal);
+
+        //
+        // ---------- Operators and Expressions ----------
+        //
     }
 }
