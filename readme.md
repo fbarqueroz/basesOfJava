@@ -19,3 +19,5 @@
     - Rounding
     - Random number
 - Conditionals
+- Switch
+- Ternary operator
