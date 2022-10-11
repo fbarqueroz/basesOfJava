@@ -9,3 +9,13 @@
 - Const value
 - in and out of data **(console)**
 - in and out of data with **JOptionPane**
+- Operators and Expressions
+  - Arithmetic operators
+  - Arithmetic operators combined with assignment
+  - Increment and decrement
+  - Math Class
+    - Square Root
+    - To the power of
+    - Rounding
+    - Random number
+- Conditionals

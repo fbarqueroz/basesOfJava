@@ -132,6 +132,8 @@ public class BasicsOfJava {
         // ---------- In and out of data with JOptionPane ----------
         //
 
+        /*
+
         String cadena;
         int entero;
         char letra;
@@ -157,8 +159,119 @@ public class BasicsOfJava {
         JOptionPane.showMessageDialog(null, "La letra es: " + letra);
         JOptionPane.showMessageDialog(null, "El número decimal es: " + decimal);
 
+        */
+
         //
         // ---------- Operators and Expressions ----------
+        //
+
+        // ********** Arithmetic operators **********
+
+        /*
+         // Define the values
+        Scanner inputNumber = new Scanner (System.in);
+        float num1, num2, sum, minus, multiply, divide, residue;
+
+        // Request the numbers
+        System.out.println("Digite 2 números: ");
+        num1 = inputNumber.nextFloat();
+        num2 = inputNumber.nextFloat();
+
+        // Operations
+        sum = num1 + num2;
+        minus = num1 - num2;
+        multiply = num1 * num2;
+        divide = num1 / num2;
+        residue = num1 % num2; // Divine both numbers and show the residue of this divide
+
+        // Print the results
+        System.out.println("La suma de los numeros es de: " + sum);
+        System.out.println("La resta de los numeros es de: " + minus);
+        System.out.println("La multiplicacion de los numeros es de: " + multiply);
+        System.out.println("La division de los numeros es de: " + divide);
+        System.out.println("El residuo de la division de los numeros es de: " + residue);
+        */
+
+        // ********** Arithmetic operators combined with assignment ********************
+
+        /*
+        Types of combinated operators:
+            * +=
+            * -=
+            * /=
+            * *=
+            * %=
+         */
+
+        /*
+        int number = 10;
+        number += 5; // --> number = number + 5
+        System.out.println(number);
+        */
+
+        //  ********** Increment and decrement **********
+
+        /*
+        int x = 5, y;
+
+        // x++; ---> Increment
+        // x--; ---> Decrement
+
+        // y = x++; 🚫
+        // y = ++x; ✅
+
+        System.out.println(x);
+        System.out.println(y);
+        */
+
+        //  ********** Math Class **********
+
+        /*
+        // square root
+        double root = Math.sqrt(9); // Must be DOUBLE when u try to make a square root operation
+        System.out.println(root);
+
+        // To the power of 
+        double base = 5, exp = 2;
+        double res = Math.pow(base, exp);
+        System.out.println(res);
+
+        // Rounding
+        double num = 4.56;
+        long result = Math.round(num); // long --> Int number
+        System.out.println(result);
+
+        float numFloat = 4.56f;
+        int resultFloat = Math.round(numFloat); // long --> Int number
+        System.out.println(resultFloat);
+
+        // Random number
+        double numRandom = Math.random();
+        System.out.println(numRandom);
+        */
+
+        // ********** Operators Examples **********
+
+        /*
+
+        // ---> Make a program that calculates and prints the sum of three grades
+
+        Scanner entrada = new Scanner(System.in);
+        float grade1, grade2, grade3, sum;
+
+        // Request the 3 grades
+        System.out.println("Ingrese las 3 notas: ");
+        grade1 = entrada.nextFloat();
+        grade2 = entrada.nextFloat();
+        grade3 = entrada.nextFloat();
+
+        sum = grade1 + grade2 + grade3;
+        System.out.println("\nLa suma de las notas es de: " + sum);
+
+        */
+
+        //
+        // ---------- Conditionals ----------
         //
     }
 }
