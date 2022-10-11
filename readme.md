@@ -1,6 +1,6 @@
 # Java for Beginners 🍵
 
-<img src="https://media.giphy.com/media/LG1ZZP1Go0D8j7YsWy/giphy.gif"/>
+![Dwaight coffee gif](https://media.giphy.com/media/LG1ZZP1Go0D8j7YsWy/giphy.gif)
 
 ## **Topics**
 - How to print something in the console
