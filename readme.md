@@ -1,6 +1,6 @@
 # Java for Beginners 🍵
 
-![Dwaight coffee gif](https://media.giphy.com/media/LG1ZZP1Go0D8j7YsWy/giphy.gif)
+<iframe src="https://giphy.com/embed/LG1ZZP1Go0D8j7YsWy" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ## **Topics**
 - How to print something in the console
